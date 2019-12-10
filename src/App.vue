@@ -3,6 +3,7 @@
     <navigation></navigation>
     <router-view />
     <mainfooter></mainfooter>
+    yeees
   </div>
 </template>
 
