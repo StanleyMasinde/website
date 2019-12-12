@@ -15,20 +15,36 @@
           <!-- Footer Social Icons -->
           <div class="col-lg-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <a
+              title="stanley.masinde.ke"
+              class="btn btn-outline-light btn-social mx-1"
+              href="//facebook.com/stanley.masinde.ke"
+              target="_blank"
+            >
               <font-awesome-icon :icon="['fab', 'facebook-f']" />
             </a>
             <a
               title="@StanleyMasinde_"
               class="btn btn-outline-light btn-social mx-1"
-              href="#"
+              href="https://twitter.com/StanleyMasinde_"
+              target="_blank"
             >
               <font-awesome-icon :icon="['fab', 'twitter']" />
             </a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <a
+              title="stanley-masinde"
+              class="btn btn-outline-light btn-social mx-1"
+              href="//www.linkedin.com/in/stanley-masinde/"
+              target="_blank"
+            >
               <font-awesome-icon :icon="['fab', 'linkedin-in']" />
             </a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#">
+            <a
+              title="stannlee"
+              class="btn btn-outline-light btn-social mx-1"
+              href="//github.com/stannlee"
+              target="_blank"
+            >
               <font-awesome-icon :icon="['fab', 'github']" />
             </a>
           </div>

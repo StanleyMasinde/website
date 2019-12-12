@@ -9,6 +9,18 @@ import store from "./store";
 
 Vue.config.productionTip = false;
 
+/**
+ * Register service worker
+ */
+if (navigator.serviceWorker) {
+  navigator.serviceWorker
+    .register("sw.js")
+    .then(() => true)
+    .catch(err => {
+      console.error(err);
+    });
+}
+
 new Vue({
   router,
   store,
