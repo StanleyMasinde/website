@@ -3,6 +3,14 @@ import App from "./App.vue";
 import router from "./router";
 import vuetify from "./plugins/vuetify";
 
+// Regsiter sw
+if (navigator.serviceWorker) {
+  navigator.serviceWorker
+    .register("sw.js")
+    .then()
+    .catch();
+}
+
 Vue.config.productionTip = false;
 
 new Vue({
