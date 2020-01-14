@@ -15,6 +15,14 @@
 
         <v-divider></v-divider>
 
+        <v-list-item link to="/">
+          <v-list-item-icon>
+            <v-icon>mdi-home</v-icon>
+          </v-list-item-icon>
+
+          <v-list-item-title>Home</v-list-item-title>
+        </v-list-item>
+
         <v-list-item link to="/portfolio">
           <v-list-item-icon>
             <v-icon>mdi-circle-expand</v-icon>
@@ -52,6 +60,11 @@
       </v-container>
     </v-content>
     <v-bottom-navigation color="primary" app>
+      <v-btn to="/">
+        <span>Home</span>
+        <v-icon>mdi-home</v-icon>
+      </v-btn>
+
       <v-btn to="/portfolio">
         <span>Portfolio</span>
         <v-icon>mdi-circle-expand</v-icon>
