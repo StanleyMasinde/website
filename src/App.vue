@@ -59,7 +59,7 @@
         <router-view></router-view>
       </v-container>
     </v-content>
-    <v-bottom-navigation color="primary" app>
+    <v-bottom-navigation class="d-lg-none" color="primary" app>
       <v-btn to="/">
         <span>Home</span>
         <v-icon>mdi-home</v-icon>
